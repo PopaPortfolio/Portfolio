@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+<script>
+   $(document).ready(function() {
+     $("#1, #2, #3, #4, #5, #6, #7, #8, #9").mouseenter(function() {
+       $(this).css({
+         "background-color" : "rgba(0, 0, 0, 0.9)",
+         "background-blend-mode" : "darken"
+       });
+       $(this).find("h5, span, p, h6").show();
+     });
+     $("#1, #2, #3, #4, #5, #6, #7, #8, #9").mouseleave(function() {
+      $(this).css({
+         "background-color" : "unset",
+         "background-blend-mode" : "unset"
+       });
+       $(this).find("h5, span, p, h6").hide();
+     });
+   });
+</script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg m-3 navbar-light" role="navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link border-bottom border-dark" href="">HOME<span class="sr-only border-bottom">(current)</span></a>
+            </li>
+            <li class="nav-item ml-3">
+              <a class="nav-link" href="about.html">ABOUT ME</a>
+            </li>
+          </ul>
+          <span class="navbar-text text-dark">
+            &copy; DARKO POPOVIĆ
+          </span>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div id="1" class="col-md-4 p-0 bg" style="background-image: url(assets/graduation.jfif);">
+                <div class="text-center text-white">  
+                 <img class="img-fluid w-25 mt-3" src="assets/graduation-cap.png">
+                  <div class="size text-center mt-5"> 
+                   <h5 class="display mt-5">Bachelor's and Master's degree in Computer Science</h5>
+                   <span class="display">Faculty of Mechanical Engineering, Computer Science and Electrical Engineering</span>
+                  </div>
+                </div>
+            </div>
+
+            <div id="2" class="col-md-4 p-0 bg" style="background-image: url(assets/coding.jpg);">
+              <div class="text-center text-white">
+              <img class="img-fluid w-25 mt-2" src="assets/frontend.png">
+               <div class="text-center size mt-5"> 
+                <h5 class="display">Frontend Developer</h5>
+                <span class="display">Practical knowledge in following web technologies:</span>
+                <p class="display"><b>HTML5, CSS3, JavaScript, jQuery, AJAX, Bootstrap4, Angular, Angular Material & Laravel</b></p>
+               </div>
+              </div>
+            </div>
+
+            <div id="3" class="col-md-4 p-0 bg" style="background-image: url(assets/backend-coding.jpg);">
+              <div class="text-center text-white">
+                <img class="img-fluid w-25 mt-1" src="assets/back.png">
+                <div class="text-center size"> 
+                 <h5 class="display">Backend Developer</h5>
+                  <span class="display">Practical knowledge in following web technologies:</span>
+                  <p class="display"><b>PHP, ASP.NET Framework, ASP.NET Core</b></p>
+                </div>
+              </div>
+             </div>
+        </div>
+      <div class="row">
+
+          <div id="4" class="col-md-4 p-0 bg" style="background-image: url(assets/database.png);">
+              <div class="text-center text-white">  
+               <img class="img-fluid w-25 mt-3" src="assets/db.png">
+               <div class="size text-center mt-3"> 
+                 <h5 class="display">Database Management</h5>
+                 <span class="display">Practical knowledge in <b>SQL</b></span>
+                 <p class="display">Databases: <b>PostgreSQL, MySQL & Oracle</b></p>
+               </div>
+              </div>
+          </div>
+
+          <div id="5" class="col-md-4 p-0 bg" style="background-image: url(assets/team.png);">
+            <div class="text-center text-white">
+            <img class="img-fluid w-25 mt-3" src="assets/cert.png">
+            <div class="text-center size mt-3"> 
+              <h5 class="display">Certificates:</h5>
+              <h6 class="display">FSRoboCup: Arduino, Raspberry Pi, RFID</h6>
+              <h6 class="display">Programming in C++</h6>
+              <h6 class="display">Unicredit Excellence Hub: SCRUM & mini hackaton</h6>
+            </div>
+          </div>
+       </div>
+
+       <div id="6" class="col-md-4 p-0 bg" style="background-image: url(assets/develop.jpg);">
+        <div class="text-center text-white">
+        <img class="img-fluid w-25 mt-3" src="assets/app.png">
+        <div class="text-center size mt-3"> 
+          <h5 class="display">Web Apps Developed: </h5>
+          <h6 class="display">Web App for job applications management</h6>
+          <h6 class="display">Web App as a platform for music groups</h6>
+          <span class="display">Many partial apps as exercise in programming languages</span>
+        </div>
+      </div>
+    </div>
+    </div>
+      
+    <div class="row">
+
+      <div id="7" class="col-md-4 p-0 bg" style="background-image: url(assets/competition.jpg);">
+          <div class="text-center text-white">  
+           <img class="img-fluid w-25 mt-3" src="assets/prize.jpg">
+           <div class="size text-center mt-3"> 
+             <h5 class="display">Team competitions:</h5>
+             <h6 class="display">FSRoboCup: <b>1. prize, self-driving robot (Arduino)</b></h6>
+             <h6 class="display">FSRoboCup: <b>1. prize, inovative idea using RFID technology</b></h6>
+             <h6 class="display">Unicredit Challenge: <b>1. prize, inovative idea and design</b></h6>
+           </div>
+          </div>
+      </div>
+
+      <div id="8" class="col-md-4 p-0 bg" style="background-image: url(assets/technology.jpg);">
+        <div class="text-center text-white">
+        <img class="img-fluid w-25 mt-3" src="assets/atom.png">
+        <div class="text-center size mt-3"> 
+          <h5 class="display">Technology enthusiast</h5>
+          <span class="display">Always trying to be up to date, learn of new technologies, 
+            programming languages and different approaches to the problem</span>
+        </div>
+      </div>
+   </div>
+
+   <div id="9" class="col-md-4 p-0 bg" style="background-image: url(assets/music.jpg);">
+    <div class="text-center text-white">
+    <img class="img-fluid w-25 mt-3" src="assets/guitar.png">
+    <div class="text-center size mt-3"> 
+      <h5 class="display">Musician</h5>
+      <span class="display">Apart from technology, my biggest occupation is music. 
+        I play guitar, piano and have experience in lots of bands. 
+        My favourite genres are: Rock, Jazz, Soul and Classical music</span>
+    </div>
+  </div>
+</div>
+</div>  
+    </div>
+            
+</body>
+</html>
