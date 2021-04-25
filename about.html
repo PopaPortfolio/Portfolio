@@ -8,75 +8,80 @@
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <title>About me</title>
-<script>
-  $(document).ready(function() {
-    $("#btn").click(function() {
-      $("#div1").slideToggle(9000, function() {
-        $("#par").text("I hope You are feeling guilty for doing that :(");
-      });
-    });
-  });
-</script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg m-3 navbar-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item active ml-3">
-              <a class="nav-link border-bottom border-dark" href="about.html">ABOUT ME<span class="sr-only border-bottom">(current)</span></a>
-            </li>
-          </ul>
-          <span class="navbar-text text-dark">
-            &copy; DARKO POPOVIĆ
-          </span>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg m-3 navbar-light" role="navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item active ml-3">
+          <a class="nav-link border-bottom border-dark" href="">ÜBER MICH<span class="sr-only border-bottom">(current)</span></a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link">MEDIA</a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link">UNTERRICHT</a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link">ARRANGMENTS</a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link">KONTAKT</a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link">IMPRESSUM</a>
+        </li>
+      </ul>
+      <span class="navbar-text text-dark">
+        &copy; KARLA GVOZDEN
+      </span>
+    </div>
+</nav>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3">
-          <div id="div1" class="ml-3">
-            <img class="img-fluid w-100" src="assets/djedija.jpg" style="border-radius: 5px;">
-          </div>
-          <div class="ml-3">
-            <h6 class="mt-2 text-center">Hide the picture with "click" on button below!</h6>
-            <div class="text-center">
-            <button id="btn" class="btn btn-primary">Hide/Show </button>
-          </div>
-            <p id="par" class="mt-2 text-center text-danger">P.S. If you want to hide the picture, try to look us in the eyes, until the end.</p>
-          </div>
+    <div class="container-fluid" style="height: 90%;">
+      <div class="row h-100">
+        <div class="d-none d-md-block col-md-4 image-left">
+    
         </div>
-        <div class="col-md-2"></div>
-        <div class="col-md-7">
-          <div class="ml-3 mr-3">
-          <h2 class="text-center text-primary">Greetings Visitor :)</h2>
-          <h3 class="text-center text-primary">Feel very welcome on my website</h3>
+        <div class="col-md-8 mb-3">
+          <div style="display: flex; justify-content: center;">
+            <img class="img-style-about-me" src="assets/karla.jpg" />
           </div>
           <div class="mt-5 ml-3 mr-3">
-          <p>My name is Darko Popović and I'm 26 years old. 
-            I finished Musical High School and after that I changed my direction to the IT world. 
-            I studied Computer Science at the Faculty of Mechanical Engineering, Computer Science and Electrical Engineering. 
-            In November 2019, I acquired Bachelor's and Master's degree in Computer Science.  
+          <p>
+            Ich wurde am 25.03. 1999 in Livno, Bosnien und Herzegowina geboren. Im Jahr 2005 habe
+            ich angefangen die Grundschule zu besuchen. Parallel dazu, im Alter von 8 Jahren habe ich
+            angefangen Akkorden, Solfeggio und Orchester Unterricht bei Mladen Jelovic, an der
+            Städtische Musikschule, zu nehmen.
           </p>
           <p>
-            Through faculty and internship
-            I orientated primarly toward Web Development, but always trying to learn new programming languages, also read about new and better
-            approaches. Until now I have completed two complete web apps using Angular 7, C# / .NET, Dapper and PostgreSQl, 
-            also few Frontend parts for faculty projects using Angular. Now I am learning and making minor apps using Laravel, PHP, Ajax and MySQL.
+            Meine Leidenschaft zum Akkordeon entdeckte ich bereits im Alter von 10 Jahren durch
+            meine Lehrer. Schnell hat er meine musikalische Begabung erkannt und gefördert. Daraufhin
+            habe ich an mehreren Wettbewerben Teilgenohmen, und zwar in Sarajevo, Gracanica, Pula,
+            Ilidza, Slavonski Brod… Das waren viele Solo-, Kammermusik-, und Orchesterwettbewerbe.
+            Im Jahr 2013 im Alter von 14 Jahren bin ich nach Novi Travnik umgezogen, um mich in
+            meine Musikrichtung weiterzubilden an „Jakov Gotovac“ Musikgymnasium.
           </p>
           <p>
-            I can describe myself as a creative and in constant seek for some kind of perfection. I really enjoy working
-            in functional teams. Through growing up, football, music, projects and other parts of life I have learned what is the power beneath a functional team.
-            Always looking forward to meet and work with new people, because of their unique vision, approach and experience. Profficient knowledge in english,
-            both written and spoken communication. At the time, I'm learning german.
+            2014 zog ich nach Deutschland um und fing an in Karlschule Freiburg Deutsch zu lernen und
+            2017 habe ich mein Realschulabschluss erworben. Ab 2015 habe ich Akkorden Unterricht
+            bei Volker Rausenberger besucht, und unter seiner Leitung, die nächsten 2 und halb Jahren
+            in dem Freiburger Akkorden Orchester gespielt
           </p>
-          <p>This website is a personal project using HTML, CSS, Bootstrap & jQuery.</p>
+          <p>
+            2017 habe ich mich entschieden von Tastenakkordeon auf Knopfakkordeon (B-Griff)
+            umzulernen und im darauffolgenden Jahr habe ich meine Ausbildung mit Fächer Akkordeon,
+            Klavier, Dirigieren, EMP, Stimmbildung, Arrangement usw. am Hohner-Konservatorium
+            angefangen. Hauptfachunterricht erste 2 Jahre hatte ich beim Werner Glutsch und letztes
+            Jahr bei Viviane Chassot. Im Jahre 2022 mein Abschluss als stattlich angeprüfte
+            Akkordeonlehrerin beschlossen.
+          </p>
           </div>
         </div>
       </div>

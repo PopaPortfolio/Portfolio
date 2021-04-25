@@ -1,0 +1,7 @@
+Pages:
+  - Home
+  - Uber mich
+  - Media
+  - Unterricht (Harmonika, Klavir, Classic, Balkan, cijene)
+  - Aranzmani
+  - Impressum
