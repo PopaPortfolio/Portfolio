@@ -109,6 +109,11 @@ html, body {
       .modal-footer{
         display:none;  
       }
+
+.impressum {
+    color: #878786;
+    font-family: 'Times New Roman', Times, serifr;
+}
   
 
 
