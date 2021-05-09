@@ -114,6 +114,13 @@ html, body {
     color: #878786;
     font-family: 'Times New Roman', Times, serifr;
 }
+
+.videoTitle {
+    color: #0A4687;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
   
 
 
